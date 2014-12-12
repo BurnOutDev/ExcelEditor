@@ -87,14 +87,14 @@
                                 <ColumnDefinition Width="0.5*"/>
                                 <ColumnDefinition Width="0.5*"/>
                             </Grid.ColumnDefinitions>
-                            <TextBox Text="{Binding Cell1}"  
+                            <TextBox Text="{Binding Cell1.Value}"  
                                      Height="23"
                                      HorizontalAlignment="Stretch"
                                      Margin="0,10,0,0" 
                                      TextWrapping="Wrap"
                                      Grid.Column="0"/>
 
-                            <TextBox Text="{Binding Cell2}"  
+                            <TextBox Text="{Binding Cell2.Value}"  
                                      Height="23"
                                      HorizontalAlignment="Stretch"
                                      Margin="10,10,0,0" 
